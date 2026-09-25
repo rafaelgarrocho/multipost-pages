@@ -3,38 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Social Media MultiPost</title>
-  <meta name="description" content="Official information and legal pages for Social Media MultiPost, a local desktop publishing tool for authorized social accounts.">
+  <title>Social Media MultiPost — Desktop publishing for creators</title>
+  <meta name="description" content="Prepare, schedule, and publish user-authorized Instagram and TikTok content from one local desktop workspace.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <a class="brand" href="./"><span class="logo">MP</span>Social Media MultiPost</a>
-    <nav aria-label="Main navigation">
-      <a href="./" aria-current="page">Home</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </nav>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="logo">MP</span><span>Social Media MultiPost</span></a>
+    <nav aria-label="Main navigation"><a href="#features">Features</a><a href="#workflow">How it works</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
   </header>
   <main>
     <section class="hero">
-      <p class="eyebrow">Local desktop publishing</p>
-      <h1>Prepare, schedule, and publish with control.</h1>
-      <p class="lead">Social Media MultiPost is a locally operated desktop tool that helps creators prepare and publish user-authorized content to their own social media accounts.</p>
-      <div class="actions">
-        <a class="button" href="privacy.html">Privacy Policy</a>
-        <a class="button secondary" href="terms.html">Terms of Service</a>
+      <div>
+        <p class="eyebrow">Local desktop publishing</p>
+        <h1>Plan once. Publish with control.</h1>
+        <p class="lead">Social Media MultiPost helps creators and social teams prepare, schedule, and publish content to accounts they own or are authorized to manage.</p>
+        <div class="actions"><a class="button" href="#workflow">See how it works</a><a class="button secondary" href="support.html">Get support</a></div>
+        <p class="trust-line">User-authorized access · Per-post controls · Credentials remain on your computer</p>
+      </div>
+      <div class="app-preview" aria-label="Product workflow preview"><div class="preview-top"><span></span><span></span><span></span><b>MultiPost</b></div><div class="preview-body"><aside><i class="active"></i><i></i><i></i><i></i></aside><div class="preview-content"><small>THIS WEEK</small><strong>Content calendar</strong><div class="calendar-cards"><span>Reel</span><span>Post</span><span>TikTok</span><span>Carousel</span></div></div></div></div>
+    </section>
+    <section id="features" class="section-block">
+      <p class="eyebrow">One controlled workspace</p><h2>Built around review before publish</h2>
+      <div class="grid">
+        <article class="card"><span class="card-icon">01</span><h3>Plan and schedule</h3><p>Organize posts in calendar, list, and media-bank views, then choose immediate or scheduled publishing.</p></article>
+        <article class="card"><span class="card-icon">02</span><h3>Connect officially</h3><p>Authorize Instagram and TikTok accounts through the platforms’ official login and OAuth flows.</p></article>
+        <article class="card"><span class="card-icon">03</span><h3>Choose per post</h3><p>Review the connected creator, privacy, comments, Duet, Stitch, commercial disclosure, and AI labeling before posting.</p></article>
+        <article class="card"><span class="card-icon">04</span><h3>Publish media</h3><p>Send videos directly through TikTok Direct Post and publish supported Instagram formats from the same dashboard.</p></article>
+        <article class="card"><span class="card-icon">05</span><h3>Track processing</h3><p>Follow queued, publishing, published, and failed states with platform error codes and log IDs when available.</p></article>
+        <article class="card"><span class="card-icon">06</span><h3>Stay local-first</h3><p>Media, schedules, tokens, and application data are stored on the user’s own computer.</p></article>
       </div>
     </section>
-    <section class="grid" aria-label="Product features">
-      <article class="card"><h2>Local by design</h2><p>The application, settings, scheduling data, and credentials remain on the user's computer.</p></article>
-      <article class="card"><h2>User authorized</h2><p>Connected accounts are authorized through the official authentication flows provided by each platform.</p></article>
-      <article class="card"><h2>Creator controlled</h2><p>Users review their media, caption, privacy settings, and timing before initiating a publication.</p></article>
+    <section id="workflow" class="section-block split">
+      <div><p class="eyebrow">How it works</p><h2>From authorization to publication</h2><p class="lead compact">Every publication remains an explicit user action, with current account capabilities loaded before submission.</p></div>
+      <ol class="steps"><li><b>Connect</b><span>Sign in and grant the permissions shown by the selected platform.</span></li><li><b>Prepare</b><span>Select media, write the caption, and choose the destination account.</span></li><li><b>Review</b><span>Confirm privacy, interaction settings, disclosures, and timing for that post.</span></li><li><b>Publish</b><span>Submit now or schedule the local queue, then monitor platform processing.</span></li></ol>
     </section>
+    <section class="section-block safety"><div><p class="eyebrow">Account control</p><h2>Your authorization stays reversible.</h2><p>Disconnect TikTok from the application to revoke its saved authorization. You can also remove access in TikTok settings and delete all local application data from your computer.</p></div><div class="actions"><a class="button" href="data-deletion.html">Deletion instructions</a><a class="button secondary" href="privacy.html">Read the privacy policy</a></div></section>
   </main>
-  <footer>
-    <p>© 2026 Social Media MultiPost.</p>
-    <p><a href="https://github.com/rafaelgarrocho/multipost-pages/issues">Support and contact</a></p>
-  </footer>
+  <footer><div><a class="brand" href="./"><span class="logo">MP</span><span>Social Media MultiPost</span></a><p>Independent desktop publishing software.</p></div><div class="footer-links"><a href="support.html">Support</a><a href="data-deletion.html">Data deletion</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div><p>© 2026 Social Media MultiPost.</p></footer>
 </body>
 </html>

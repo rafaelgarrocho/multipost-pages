@@ -1,2 +1,2 @@
 # multipost-pages
-Official information and legal pages for Social Media MultiPost
+Official product, support, privacy, terms, and data-deletion pages for Social Media MultiPost.
